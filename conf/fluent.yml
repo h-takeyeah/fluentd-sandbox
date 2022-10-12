@@ -8,4 +8,4 @@ config:
             $tag: "fluent.*"
             $type: stdout
 
-  - !include http.yaml
+  - !include http.yml
