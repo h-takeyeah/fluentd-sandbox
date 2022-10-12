@@ -1,0 +1,11 @@
+system:
+
+config:
+  - label:
+      $name: "@FLUENT_LOG"
+      config:
+        - match:
+            $tag: "fluent.*"
+            $type: stdout
+
+  - !include http.yaml
